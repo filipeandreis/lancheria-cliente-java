@@ -22,7 +22,7 @@ public class ViewProduct {
 			System.exit(0);
 		}
 		
-		int op= Integer.parseInt(aux);
+		int op = Integer.parseInt(aux);
 		return (double) op;
 	}
 }

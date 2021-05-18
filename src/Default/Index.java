@@ -1,10 +1,12 @@
 package Default;
 
-import Controllers.ClienteController;
+import javax.swing.text.View;
+
+import Views.ViewMenu;
 
 public class Index {
 	public static void main(String[] args) {
-		ClienteController clienteController = new ClienteController();
+		new ViewMenu().showMenu();
 	}
 
 }
