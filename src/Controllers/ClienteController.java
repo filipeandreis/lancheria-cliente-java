@@ -26,9 +26,9 @@ public class ClienteController {
 		List<AdicionalProduto> adicionais = new ArrayList<>();
 		List<ClienteComprarProdutos> carrinho = new ArrayList<>();
 		ViewClient viewClient = new ViewClient();
-		ViewAddress viewAdress = new ViewAddress();
-		ViewProduct viewProduct = ViewProduct();
-		ViewAdditional viewAdditional = ViewAdditional();
+		new ViewAddress();
+		new ViewProduct();
+		new ViewAdditional();
 		
 		String name = viewClient.setName();
 		String cpf = viewClient.setCpf();
@@ -40,11 +40,11 @@ public class ClienteController {
 		
 		String product1 = ViewProduct.setDescription();
 		Double price1 = ViewProduct.setPrice();
-		String additional1 = viewAdditional.setDescription();
+		String additional1 = ViewAdditional.setDescription();
 		
 		String product2 = ViewProduct.setDescription();
 		Double price2 = ViewProduct.setPrice();
-		String additional2 = viewAdditional.setDescription();
+		String additional2 = ViewAdditional.setDescription();
 		
 		
 		Cliente cliente = new Cliente(name, cpf, phone);
@@ -107,16 +107,6 @@ public class ClienteController {
 			"Valor total da compra: " + valorTotalCompra
 		);
 		
-	}
-
-	private static ViewProduct ViewProduct() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	private static ViewAdditional ViewAdditional() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 }

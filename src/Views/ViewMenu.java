@@ -14,7 +14,7 @@ public class ViewMenu {
 			op = Integer.parseInt(aux);
 			
 			if(op == 1) {
-				ClienteController clienteController = new ClienteController();
+				new ClienteController();
 			} else if(op == 2) {
 				System.exit(0);
 			}

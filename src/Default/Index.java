@@ -1,7 +1,5 @@
 package Default;
 
-import javax.swing.text.View;
-
 import Views.ViewMenu;
 
 public class Index {
