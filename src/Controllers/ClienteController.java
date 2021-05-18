@@ -20,7 +20,7 @@ import Views.ViewProduct;
 import Views.ViewAdditional;
 
 public class ClienteController {
-	public static void main(String[] args) {
+	public ClienteController() {
 		int i = 0;
 		List<Produto> produtos = new ArrayList<>();
 		List<AdicionalProduto> adicionais = new ArrayList<>();
@@ -109,13 +109,14 @@ public class ClienteController {
 		
 	}
 
+	private static ViewProduct ViewProduct() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	private static ViewAdditional ViewAdditional() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	private static ViewProduct ViewProduct() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }
