@@ -1,11 +1,11 @@
 package Models;
 
-public class Endereco {
+public class Address {
 	private int numero;
 	private String nome;
 	private String cep;
 	
-	public Endereco(int numero, String nome, String cep) {
+	public Address(int numero, String nome, String cep) {
 		this.numero=numero;
 		this.nome=nome;
 		this.cep=cep;

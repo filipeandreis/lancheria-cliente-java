@@ -1,12 +1,12 @@
 package Models;
 
-public class Produto {
+public class Product {
 	private int codigo;
 	private String descricao;
 	private Double valorUnitario;
-	private AdicionalProduto marcaProduto;
+	private AdditionalProduct marcaProduto;
 	
-	public Produto(int codigo, String descricao, Double valorUnitario) {
+	public Product(int codigo, String descricao, Double valorUnitario) {
 		this.codigo = codigo;
 		this.descricao = descricao;
 		this.valorUnitario = valorUnitario;
@@ -24,7 +24,7 @@ public class Produto {
 		return valorUnitario;
 	}
 	
-	public AdicionalProduto getMarcaProduto() {
+	public AdditionalProduct getMarcaProduto() {
 		return marcaProduto;
 	}
 	
@@ -40,7 +40,7 @@ public class Produto {
 		this.valorUnitario = valorUnitario;
 	}
 	
-	public void setMarcaProduto(AdicionalProduto marcaProduto) {
+	public void setMarcaProduto(AdditionalProduct marcaProduto) {
 		this.marcaProduto = marcaProduto;
 	}
 }

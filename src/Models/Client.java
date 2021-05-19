@@ -1,13 +1,13 @@
 package Models;
 
-public class Cliente {
+public class Client {
 	
 	private String nome;
 	private String cpf;
 	private String telefone;
-	private Endereco endereco;
+	private Address endereco;
 
-	public Cliente (String nome, String cpf, String telefone) {
+	public Client (String nome, String cpf, String telefone) {
 		this.nome = nome;
 		this.cpf = cpf;
 		this.telefone = telefone;
@@ -37,11 +37,11 @@ public class Cliente {
 		this.telefone = telefone;
 	}
 	
-	public Endereco getEndereco() {
+	public Address getEndereco() {
 		return endereco;
 	}
 	
-	public void setEndereco (Endereco endereco) {
+	public void setEndereco (Address endereco) {
 		this.endereco = endereco;
 	}
 }

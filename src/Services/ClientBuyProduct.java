@@ -1,12 +1,12 @@
 package Services;
 
-public class ClienteComprarProdutos {
+public class ClientBuyProduct {
 	private int codigo;
 	private int quantPorProdutos;
-	private RelacionamentoProdutoAdicionais relProdutoAdicionais;
-	private RelacionamentoClienteEndereco relCliEnd;
+	private RelProductAdditional relProdutoAdicionais;
+	private RelClientAddress relCliEnd;
 		
-	public ClienteComprarProdutos(int codigo, int quantPorProdutos, RelacionamentoProdutoAdicionais relProdutoAdicionais, RelacionamentoClienteEndereco relCliEnd) {
+	public ClientBuyProduct(int codigo, int quantPorProdutos, RelProductAdditional relProdutoAdicionais, RelClientAddress relCliEnd) {
 		this.codigo = codigo;
 		this.quantPorProdutos = quantPorProdutos;
 		this.relProdutoAdicionais = relProdutoAdicionais;
@@ -29,19 +29,19 @@ public class ClienteComprarProdutos {
 		this.quantPorProdutos = quantPorProdutos;
 	}
 
-	public RelacionamentoProdutoAdicionais getProdutosCliente() {
+	public RelProductAdditional getProdutosCliente() {
 		return relProdutoAdicionais;
 	}
 	
-	public void setrelProdutoAdicionais(RelacionamentoProdutoAdicionais relProdutoAdicionais) {
+	public void setrelProdutoAdicionais(RelProductAdditional relProdutoAdicionais) {
 		this.relProdutoAdicionais = relProdutoAdicionais;
 	}
 
-	public RelacionamentoClienteEndereco getrelCliEnd() {
+	public RelClientAddress getrelCliEnd() {
 		return relCliEnd;
 	}
 	
-	public void setrelClienteEndereço(RelacionamentoClienteEndereco relCliEnd) {
+	public void setrelClienteEndereço(RelClientAddress relCliEnd) {
 		this.relCliEnd = relCliEnd;
 	}
 }

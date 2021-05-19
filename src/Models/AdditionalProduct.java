@@ -1,10 +1,10 @@
 package Models;
 
-public class AdicionalProduto {
+public class AdditionalProduct {
 	private String descricao;
 	private int codigo;
 	
-	public AdicionalProduto(String descricao, int codigo){
+	public AdditionalProduct(String descricao, int codigo){
 		this.codigo = codigo;
 		this.descricao = descricao;
 	}
