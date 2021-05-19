@@ -5,7 +5,6 @@ import Views.ViewAdditional;
 
 public class AdditionalController {
 	public AdditionalProduct newAdditional() {
-		
 		new ViewAdditional();
 		String additionalProduct = ViewAdditional.setDescription();
 		
